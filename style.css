@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(red, blue);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container {
+  background: #fff;
+  margin: 20px;
+  padding: 30px;
+  width: 350px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.progress-bar {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.progress-bar .progress-bar-text {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.progress-bar .progress-bar-number {
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.progress-bar .progress-bar-number .number {
+  border: 1px solid lightcoral;
+  height: 22px;
+  font-size: 16px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  text-align: center;
+}
+.progress-bar .progress-bar-number .line {
+  border: 2px solid lightcoral;
+  width: 35%;
+  display: inline;
+  margin-left: -30.8px;
+  margin-right: -30px;
+}
+.section-text {
+  display: flex;
+  gap: 10%;
+}
+.basic-info,
+.contact-info,
+.birth-date-info,
+.Login-info {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.basic-info h2,
+.contact-info h2,
+.birth-date-info h2,
+.Login-info h2 {
+  margin-bottom: 1rem;
+}
+.basic-inputs label,
+.contact-info label,
+.birth-date-info label,
+.Login-info label {
+  font-weight: 600;
+}
+.basic-inputs input,
+.birth-date-info select {
+  width: 300px;
+  display: block;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.btn {
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(228, 57, 80);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}

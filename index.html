@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multi step Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Signup Form</h1>
+        <div class="progress-bar">
+            <div class="progress-bar-text">
+                <p>Name</p>
+                <p>Contact</p>
+                <p>Birth</p>
+                <p>Submit</p>
+            </div>
+            <div class="progress-bar-number">
+                <p class="number" id="one">1</p>
+                <span class="line"></span>
+                <p class="number" id="two">2</p>
+                <span class="line"></span>
+                <p class="number" id="three">3</p>
+                <span class="line"></span>
+                <p class="number" id="four">4</p>
+            </div>
+        </div>
+        <div class="section-text">
+            <div class="basic-info" id="basic-info">
+                <h2>Basic Info :</h2>
+                <div class="basic-inputs">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter Your First Name">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter Your Last Name">
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="next">Next</button>
+                </div>
+            </div>
+            <div class="contact-info" id="contact-info">
+                <h2>Contact Info :</h2>
+                <div class="basic-inputs">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="prev1">Previous</button>
+                    <button class="btn" id="next1">Next</button>
+                </div>
+            </div>
+            <div class="birth-date-info" id="birth-date-info">
+                <h2>Date of Birth :</h2>
+                <div class="basic-inputs">
+                    <label>Date</label>
+                    <input type="text" placeholder="DD/MM/YYYY Format">
+                    <label>Gender</label>
+                    <select>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="prev2">Previous</button>
+                    <button class="btn" id="next2">Next</button>
+                </div>
+            </div>
+            <div class="Login-info" id="Login-info">
+                <h2>Login Details :</h2>
+                <div class="basic-inputs">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter Your Username">
+                    <label>Password</label>
+                    <input type="password" placeholder="Your Password Here">
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="prev3">Previous</button>
+                    <button class="btn" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
